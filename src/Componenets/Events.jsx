@@ -23,8 +23,10 @@ const Events = () => {
                     </div>
 
                     <p className='my-6'>Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.</p>
+                    <div className='flex gap-6'>
                     <Button text={'book now'}></Button>
-                    <button className='btn btn-outline mx-6'>10 Available</button>
+                    <button className='btn btn-outline'>10 Available</button>
+                    </div>
                 </div>
 
             </div>
@@ -41,8 +43,10 @@ const Events = () => {
                     </div>
 
                     <p className='my-6'>Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved. Early had add equal china quiet visit. Appear an manner as no limits either praise in. In in written on charmed justice is amiable farther besides. Law insensible middletons unsatiable for apartments boy delightful unreserved.</p>
+                    <div className='flex gap-6'>
                     <Button text={'book now'}></Button>
-                    <button className='btn btn-outline mx-6'>10 Available</button>
+                    <button className='btn btn-outline'>10 Available</button>
+                    </div>
                 </div>
                 <img className='w-[551px]' src={img2} alt="" />
 
