@@ -10,7 +10,7 @@ import Button from "./Button";
 const CareNeedBanner = () => {
   return (
     <div className="grid grid-cols-3 items-center gap-4 w-11/12 mx-auto my-10">
-      {/* <div className="">
+      <div className="">
         <h1 className="font-bold text-4xl">Find The Care You Need</h1>
         <p>
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -18,7 +18,7 @@ const CareNeedBanner = () => {
           since the 1500s,
         </p>
         <Button text={"make appointment"}></Button>
-      </div> */}
+      </div>
      
         <div className="relative">
                   <img className="absolute top-20" src={orange1} alt="" />

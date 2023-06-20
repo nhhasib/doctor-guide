@@ -6,6 +6,7 @@ import Schedule from '../Componenets/Schedule';
 import MedicalCare from '../Componenets/MedicalCare';
 import Banner from '../Componenets/Banner';
 import Experts from '../Componenets/Experts';
+import Feedback from '../Componenets/Feedback';
 
 const Home = () => {
     return (
@@ -17,6 +18,7 @@ const Home = () => {
             <MedicalCare></MedicalCare>
             <Banner></Banner>
             <Experts></Experts>
+            <Feedback></Feedback>
         </div>
     );
 };

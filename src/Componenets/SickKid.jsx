@@ -5,26 +5,26 @@ import medical from '../assets/images/medical.png'
 
 const SickKid = () => {
     return (
-        <div className='w-11/12 flex mx-auto items-center mt-[700px]'>
+        <div className='w-11/12 flex mx-auto items-center mt-[950px] gap-8'>
             <div className='items-center relative'>
                 <img className='' src={bg} alt="" />
-                <img className='w-[436px] h-[614px]' src={img} alt="" />
+                <img className='w-[436px] h-[614px] absolute -top-48 left-20' src={img} alt="" />
             </div>
             <div>
-                <h1>Sick Kid? How to Deal with a Child’s Fever: 4 Steps</h1>
-                <div className='flex'>
+                <h1 className='font-bold text-2xl'>Sick Kid? How to Deal with a <br />Child’s Fever: 4 Steps</h1>
+                <div className='flex gap-4 my-4 items-center'>
                     <img src={medical} alt="" />
                     <h1>Cras sit sed nec a nunc</h1>
                 </div>
-                <div className='flex'>
+                <div className='flex gap-4 my-4 items-center'>
                     <img src={medical} alt="" />
                     <h1>Tempor mauris mauris in</h1>
                 </div>
-                <div className='flex'>
+                <div className='flex gap-4 my-4 items-center'>
                     <img src={medical} alt="" />
                     <h1>Nibh turpis praesent pretium</h1>
                 </div>
-                <div className='flex'>
+                <div className='flex gap-4 my-4 items-center'>
                     <img src={medical} alt="" />
                     <h1>Cras sit sed nec a nunc</h1>
                 </div>

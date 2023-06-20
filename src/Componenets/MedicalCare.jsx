@@ -11,10 +11,10 @@ import Button from './Button';
 
 const MedicalCare = () => {
     return (
-        <div className='w-11/12 mx-auto text-center'>
+        <div className='w-11/12 mx-auto text-center my-20'>
             <h1 className='font-bold text-4xl'>Our Medical Care</h1>
             <p className='py-2'>Services We Provide</p>
-            <div className='grid grid-cols-4 gap-4 text-white text-center'>
+            <div className='grid grid-cols-4 gap-4 text-white text-center mb-6'>
                 <div>
                     <img src={img1} alt="" />
                     <p className='bg-[#6E27E0] py-2'>Orthopedic Clinic</p>

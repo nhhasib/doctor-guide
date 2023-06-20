@@ -5,13 +5,13 @@ import Button from './Button';
 
 const Experts = () => {
     return (
-        <div className=''>
-            <h1 className='font-bold text-4xl'>Our Medical Experts
+        <div className='my-8'>
+            <h1 className='font-bold text-4xl text-center'>Our Medical Experts
             </h1>
             <p className='w-1/2 my-4 mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
             <div className='flex gap-6 w-4/5 mx-auto'>
             <div className="card card-compact w-96 bg-base-100 shadow-xl">
-  <figure><img className='w-full' src={img1} alt="Shoes" /></figure>
+  <figure><img className='w-[343px]' src={img1} alt="Shoes" /></figure>
   <div className="card-body">
     <h2 className="card-title">Dr. Emrul Kayes</h2>
     <p>MBBS, FCFS, BCS, BSCBS</p>
