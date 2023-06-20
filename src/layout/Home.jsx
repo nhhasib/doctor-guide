@@ -8,6 +8,7 @@ import Banner from '../Componenets/Banner';
 import Experts from '../Componenets/Experts';
 import Feedback from '../Componenets/Feedback';
 import Events from '../Componenets/Events';
+import Subscribe from '../Componenets/Subscribe';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
             <Experts></Experts>
             <Feedback></Feedback>
             <Events></Events>
+            <Subscribe></Subscribe>
         </div>
     );
 };
