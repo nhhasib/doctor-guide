@@ -2,6 +2,7 @@ import React from "react";
 import logo from "../assets/images/logo.png";
 import text from "../assets/images/Doctor Guide.png";
 import Button from "./Button";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
@@ -86,12 +87,12 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <a className="normal-case text-xl">
+          <Link to={'/'} className="normal-case text-xl">
             <div className="flex items-center gap-2">
               <img src={logo} alt="" />
               <img src={text} alt="" />
             </div>
-          </a>
+          </Link>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal px-1 uppercase">
