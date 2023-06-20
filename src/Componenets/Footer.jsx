@@ -12,7 +12,7 @@ import Button from './Button';
 const Footer = () => {
     return (
         <div className='bg-[#273240]'>
-            <div className='grid grid-cols-4 py-8 px-10 gap-8 border-b-2'>
+            <div className='grid lg:grid-cols-4 py-8 px-10 gap-8 border-b-2'>
             <div>
                 <div className='flex items-center gap-4'>
                 <img src={logo} alt="" />
@@ -75,7 +75,7 @@ Sonargao, Janapath,</p>
             </div>
             <div className='flex gap-10 justify-between w-4/5 mx-auto text-white py-6'>
                 <p>Copyright © 2022. All Rights Reserved. Made with  by Solutya.</p>
-                <div className='flex gap-8'>
+                <div className='flex flex-col lg:flex-row gap-8'>
                     <p>Latest news</p>
                     <p>Privacy Policy</p>
                     <p>Terms & Conditions</p>

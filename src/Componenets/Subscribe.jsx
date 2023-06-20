@@ -3,11 +3,11 @@ import Button from './Button';
 
 const Subscribe = () => {
     return (
-        <div className='flex py-48 my-44 text-white items-center relative bg-[#0089BA] w-11/12 mx-auto rounded-xl'>
+        <div className='flex py-80 lg:py-48 my-44 text-white items-center relative bg-[#0089BA] w-11/12 mx-auto rounded-xl'>
             <div className=''>
-            <img className='absolute -top-36 left-16' src={img} alt="" />
+            <img className='absolute -top-36 lg:left-16' src={img} alt="" />
             </div>
-            <div className='absolute right-24'>
+            <div className='absolute lg:right-24 ps-6 lg:ps-0 top-96 lg:top-24'>
                 <h1 className='font-bold text-2xl'>Subscribe Now</h1>
                 <p className='my-4'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec.</p>
                 <input className='px-10 py-3 rounded' type="text" placeholder='Your email here' />

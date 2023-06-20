@@ -5,10 +5,10 @@ import medical from '../assets/images/medical.png'
 
 const SickKid = () => {
     return (
-        <div className='w-4/5 flex mx-auto items-center mt-[600px] gap-12'>
-            <div className='items-center relative'>
+        <div className='w-4/5 lg:flex mx-auto items-center mt-[1800px] lg:mt-[600px] gap-12'>
+            <div className='items-center relative mb-72 lg:mb-0'>
                 <img className='' src={bg} alt="" />
-                <img className='w-[436px] h-[614px] absolute -top-48 left-20' src={img} alt="" />
+                <img className='w-[436px] h-[614px] absolute -top-48 lg:left-20' src={img} alt="" />
             </div>
             <div>
                 <h1 className='font-bold text-2xl'>Sick Kid? How to Deal with a <br />Child’s Fever: 4 Steps</h1>

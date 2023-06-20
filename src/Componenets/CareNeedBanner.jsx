@@ -9,8 +9,8 @@ import Button from "./Button";
 
 const CareNeedBanner = () => {
   return (
-    <div className="grid grid-cols-3 gap-4 w-11/12 mx-auto my-10 relative">
-      <div className="mt-48">
+    <div className="grid lg:grid-cols-3 gap-4 w-11/12 mx-auto my-10 relative">
+      <div className=" mt-16 lg:mt-48">
         <h1 className="font-bold text-4xl">Find The Care You Need</h1>
         <p className="my-6">
           Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -21,14 +21,14 @@ const CareNeedBanner = () => {
       </div>
      
         <div className="">
-                  <img className="absolute top-20" src={orange1} alt="" />
-                 <img className="absolute -bottom-[260px]" src={orange2} alt="" />
-                  <img className="absolute top-20 w-[407px] h-[618px]" src={img2} alt="" />
+                  <img className="absolute top-[400px] lg:top-20" src={orange1} alt="" />
+                 <img className="absolute -bottom-[650px] lg:-bottom-[260px]" src={orange2} alt="" />
+                  <img className="absolute top-[400px] lg:top-20 w-[407px] h-[618px]" src={img2} alt="" />
         </div>
         <div className="">
-          <img className="absolute top-0" src={blue2} alt="" />
-          <img className="absolute -bottom-[350px]" src={blue1} alt="" />
-            <img className="absolute right-3 w-[479px] h-[792px] " src={img1} alt="" />
+          <img className="absolute top-[1200px] lg:top-0" src={blue2} alt="" />
+          <img className="absolute -bottom-[1524px] lg:-bottom-[350px]" src={blue1} alt="" />
+            <img className="absolute top-[1100px] lg:top-0 lg:right-3 w-[479px] h-[792px] " src={img1} alt="" />
         </div>
       </div>
    

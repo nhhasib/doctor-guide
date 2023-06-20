@@ -9,7 +9,7 @@ const Events = () => {
         <div className='my-10 w-11/12 mx-auto'>
             <h1 className='font-bold text-4xl text-center'>Upcoming Events</h1>
             <p className='text-center my-6 w-3/5 mx-auto'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec fermentum augue quis augue ornare, eget faucibus felis pharetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-            <div className='border-4 flex items-center gap-8'>
+            <div className='border-4 flex flex-col lg:flex-row items-center gap-8'>
                 <img className='w-[551px]' src={img1} alt="" />
                 <div className='px-8'>
                     <h1 className='font-bold text-2xl uppercase'>How to lead a good healthy life</h1>
@@ -28,7 +28,7 @@ const Events = () => {
                 </div>
 
             </div>
-            <div className='border-4 flex items-center gap-8 my-6'>
+            <div className='border-4 flex flex-col lg:flex-row items-center gap-8 my-6'>
                 <div className='px-8'>
                     <h1 className='font-bold text-2xl uppercase'>How to lead a good healthy life</h1>
                     <div className='flex gap-4 items-center my-4'>

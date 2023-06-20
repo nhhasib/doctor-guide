@@ -37,13 +37,13 @@ const schedule = [
 
 const Schedule = () => {
     return (
-        <div className='grid grid-cols-2 w-4/5 mx-auto items-center mt-28'>
+        <div className='grid grid-cols-2 w-4/5 mx-auto items-center mt-[100px] lg:mt-28'>
             <div>
                 <h1 className='font-bold text-4xl'>Doctor’s Schedule Today</h1>
                 <>
                 {
                     schedule.map(item => 
-                        <div key={item.id} className='flex items-center gap-6 my-4 border-b-2 w-1/2'>
+                        <div key={item.id} className='flex items-center gap-6 my-4 border-b-2 lg:w-1/2 w-11/12 mx-auto'>
                             <h1 className='text-red-600 font-bold my-4'>{item.time}</h1>
                             <div className='my-4'>
                                 <h2 className='font-bold'>{item.title}</h2>
@@ -54,9 +54,9 @@ const Schedule = () => {
 }
                 </>
             </div>
-            <div className='relative flex'>
-                <img className='absolute -top-[250px] right-28 h-[600px]' src={bg} alt="" />
-                <img className='absolute -top-[380px]' src={img} alt="" />
+            <div className='relative lg:flex hidden lg:display'>
+                <img className='absolute lg:-top-[250px] lg:right-28 lg:h-[600px]' src={bg} alt="" />
+                <img className='absolute lg:-top-[380px]' src={img} alt="" />
             </div>
         </div>
     );
