@@ -37,7 +37,7 @@ const schedule = [
 
 const Schedule = () => {
     return (
-        <div className='grid grid-cols-2 w-4/5 mx-auto items-center mt-20'>
+        <div className='grid grid-cols-2 w-4/5 mx-auto items-center mt-28'>
             <div>
                 <h1 className='font-bold text-4xl'>Doctor’s Schedule Today</h1>
                 <>

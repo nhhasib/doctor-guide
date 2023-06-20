@@ -5,7 +5,7 @@ import medical from '../assets/images/medical.png'
 
 const SickKid = () => {
     return (
-        <div className='w-11/12 flex mx-auto items-center mt-[950px] gap-8'>
+        <div className='w-4/5 flex mx-auto items-center mt-[600px] gap-12'>
             <div className='items-center relative'>
                 <img className='' src={bg} alt="" />
                 <img className='w-[436px] h-[614px] absolute -top-48 left-20' src={img} alt="" />

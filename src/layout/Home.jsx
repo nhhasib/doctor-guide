@@ -9,6 +9,7 @@ import Experts from '../Componenets/Experts';
 import Feedback from '../Componenets/Feedback';
 import Events from '../Componenets/Events';
 import Subscribe from '../Componenets/Subscribe';
+import Footer from '../Componenets/Footer';
 
 const Home = () => {
     return (
@@ -23,6 +24,7 @@ const Home = () => {
             <Feedback></Feedback>
             <Events></Events>
             <Subscribe></Subscribe>
+            <Footer></Footer>
         </div>
     );
 };

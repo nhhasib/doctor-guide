@@ -5,7 +5,7 @@ import Button from './Button';
 
 const Navbar = () => {
     return (
-      <div className='bg-[#273240] py-6'>
+      <div className='bg-[#273240]'>
         <div className="navbar text-white w-11/12 mx-auto">
   <div className="navbar-start">
     <div className="dropdown">
@@ -54,7 +54,7 @@ const Navbar = () => {
       </ul>
     </div>
                 <a className="normal-case text-xl">
-                    <div className='flex'>
+                    <div className='flex items-center gap-2'>
                     <img src={logo} alt="" />
                     <img src={text} alt="" />
                 </div>
@@ -65,13 +65,13 @@ const Navbar = () => {
     <li tabIndex={0}>
         <details>
           <summary>Home</summary>
-          <ul className="p-2 text-black">
+          <ul className="p-2 my-8 text-black bg-yellow-400">
             <li><a>Submenu 1</a></li>
             <li><a>Submenu 2</a></li>
           </ul>
         </details>
       </li>
-      <li tabIndex={0}>
+      <li tabIndex={1}>
         <details>
           <summary>Features</summary>
           <ul className="p-2 text-black">
@@ -80,7 +80,7 @@ const Navbar = () => {
           </ul>
         </details>
       </li>
-      <li tabIndex={0}>
+      <li tabIndex={2}>
         <details>
           <summary>Departments</summary>
           <ul className="p-2 text-black">
@@ -89,7 +89,7 @@ const Navbar = () => {
           </ul>
         </details>
                     </li>
-                    <li tabIndex={0}>
+                    <li tabIndex={3}>
         <details>
           <summary>Event</summary>
           <ul className="p-2 text-black">
