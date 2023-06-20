@@ -7,6 +7,7 @@ import MedicalCare from '../Componenets/MedicalCare';
 import Banner from '../Componenets/Banner';
 import Experts from '../Componenets/Experts';
 import Feedback from '../Componenets/Feedback';
+import Events from '../Componenets/Events';
 
 const Home = () => {
     return (
@@ -19,6 +20,7 @@ const Home = () => {
             <Banner></Banner>
             <Experts></Experts>
             <Feedback></Feedback>
+            <Events></Events>
         </div>
     );
 };
